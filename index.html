@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<title>PML lernen – Produktionsmittel und -logistik</title>
+<meta name="description" content="Private Lernseite: Kapitel, Karteikarten, Übungen und Probeprüfungen zu Produktionsmitteln und Produktionslogistik.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%233f6247'/%3E%3Cpath d='M7 22V10h6a4 4 0 0 1 0 8H10v4z' fill='%23f2b632'/%3E%3Ccircle cx='23' cy='11' r='2.5' fill='%2351b56b'/%3E%3Ccircle cx='23' cy='17' r='2.5' fill='%23f2b632'/%3E%3Ccircle cx='23' cy='23' r='2.5' fill='%23d9534a'/%3E%3C/svg%3E">
+<script>
+  // Theme vor dem ersten Rendern setzen, damit nichts aufblitzt
+  (function () {
+    try {
+      var s = JSON.parse(localStorage.getItem('pml1') || '{}');
+      var t = s.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.dataset.theme = t;
+    } catch (e) { document.documentElement.dataset.theme = 'light'; }
+  })();
+</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<header class="topbar">
+  <a class="brand" href="#/" aria-label="Startseite">
+    <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="brand-text">PML lernen</span>
+  </a>
+  <button class="theme-btn" id="themeBtn" type="button" aria-label="Zwischen hellem und dunklem Design wechseln">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path class="sun" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0-5v3m0 14v3M2 12h3m14 0h3M4.9 4.9 7 7m10 10 2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="moon" d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+  </button>
+</header>
+
+<nav class="nav" id="nav" aria-label="Hauptnavigation"></nav>
+
+<main id="main" tabindex="-1"></main>
+
+<noscript><p style="padding:2rem">Diese Lernseite braucht JavaScript.</p></noscript>
+
+<script src="js/data-chapters.js"></script>
+<script src="js/data-chapters2.js"></script>
+<script src="js/data-cards.js"></script>
+<script src="js/data-questions.js"></script>
+<script src="js/data-exercises.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

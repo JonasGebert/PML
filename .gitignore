@@ -1,0 +1,10 @@
+# Vorlesungsskripte dürfen nicht veröffentlicht werden – niemals committen
+*.pdf
+*.pptx
+# Arbeitsdateien
+_scratch/
+.DS_Store
+Thumbs.db
+
+# Testdatei aus der Einrichtung
+.github/workflows/_t.txt
